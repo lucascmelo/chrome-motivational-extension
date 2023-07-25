@@ -9,7 +9,9 @@
         "https://*.twitter.com/*",
         "https://*.facebook.com/*",
         "https://*.instagram.com/*",
-        "https://*.ctvnews.ca/*"
+        "https://*.ctvnews.ca/*",
+        "https://*.quora.com/*",
+        "https://*.reddit.com/*"
       ],
       "css": ["style.css"],
       "js": ["phrases.js"]
