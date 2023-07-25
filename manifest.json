@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Redirect Websites",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*",
+        "https://*.twitter.com/*",
+        "https://*.facebook.com/*",
+        "https://*.instagram.com/*",
+        "https://*.ctvnews.ca/*"
+      ],
+      "css": ["style.css"],
+      "js": ["phrases.js"]
+    }
+  ]
+}
