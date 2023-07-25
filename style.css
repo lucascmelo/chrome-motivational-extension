@@ -1,0 +1,24 @@
+* {
+  cursor: not-allowed;
+}
+
+body::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999998;
+  background-color: red;
+}
+
+h1 {
+  padding: 5%;
+  position: relative;
+  z-index: 9999999;
+  text-align: center;
+  color: white;
+  font-size: 99px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
